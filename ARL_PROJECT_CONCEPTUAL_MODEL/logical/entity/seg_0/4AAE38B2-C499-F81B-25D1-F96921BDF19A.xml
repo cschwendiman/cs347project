@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4AAE38B2-C499-F81B-25D1-F96921BDF19A" name="ARL Documents">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:21:13 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="61EBD48B-DCC4-D53F-B431-D3FA9F3E61B0">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:21:13 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>0BCCC238-B29D-25D3-E09E-A1C31B941E5E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="file data" id="6E08F6FF-A5BC-1E86-05C5-AA1656231EE3">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:21:13 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>93FC550C-C65B-EF9C-545A-0A2BFBB98CA3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Attribute>
+<Attribute name="filename" id="512480FD-F6A1-A8BD-F9CC-5DED2F8929AF">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:21:13 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>13430B24-B0ED-C3C2-1BBB-56561CD0727B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="file mimetype" id="402992B0-E248-890F-1B62-412904939D8C">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:21:13 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>B63367F9-9FF7-C1D3-DA40-F2011D429810</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+</Attribute>
+<Attribute name="file charset" id="D576C6B0-CF3C-9871-451A-14CCB1920AFD">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:21:13 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>04EEDE53-F16F-F307-AE95-FF6C9D4FE718</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+</Attribute>
+<Attribute name="file comments" id="329CA556-A60A-D920-E0F4-9536A1A4D26B">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:21:13 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>D4D92275-8531-0269-CA8F-DFAE3281470C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="tags" id="E27C07E0-709F-872E-97F4-FE280148832D">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:21:13 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>5730ED70-BFB4-7916-40B8-0D15C45A2C13</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="object type id" id="2D78D17E-CB4A-1392-6B9C-DDCB745716A9">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:21:13 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>1C476FE8-71D0-08D5-821C-C33CD88BF052</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C80E8E9F-6F8F-AC76-06BE-161AC2F5D919" name="ARL_Documents_PK">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:21:13 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61EBD48B-DCC4-D53F-B431-D3FA9F3E61B0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

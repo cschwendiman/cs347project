@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B0FDC86-2605-E65F-67EF-39118FAD30CE" name="ARL Employees">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:23 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="48ABAFDB-18FE-403F-884C-D37812A5AEF6">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:23 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>6666EAF4-E3EB-C5C4-56D0-3983BE576AA9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="CDAEA2DD-744F-DCA5-8B68-B8AB63376C06">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:23 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>6B55C07E-F082-F3C5-400C-BB0465E7DA86</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+<Attribute name="status" id="4B644758-F439-9C1B-32FB-F04B85E8A012">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:23 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>2EEF2168-45DC-3548-6500-7EA92A483A79</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="status eff date" id="72F93CF6-467B-DF08-81A7-8B52CCA73E7B">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:23 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>601B5CEF-9C6B-4E0D-6CCA-F30CAF17CB5D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="type" id="5CF9C9C6-B100-A423-5A22-56564183B9FA">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:23 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>597497D2-50D7-81C5-0562-27B7A874703B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+</Attribute>
+<Attribute name="document id" id="A00EF2B1-6D6B-EB25-11AA-819648D9F75F">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:23 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>083BE637-D73F-A079-544C-2E7D90331F0F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="lab id" id="F17D9963-8A78-17B6-F238-12F7D4F3FBDB">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:23 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>2DB09515-553C-109D-772E-9F10AFF91F85</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="id1" id="321EDB3D-7558-F21F-5893-6D53B519F373">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:22:09 UTC</createdTime>
+<generatorID>A962F071-DEDE-D4CD-9E77-EE443C5863E9</generatorID>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>61EBD48B-DCC4-D53F-B431-D3FA9F3E61B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="id2" id="464158D6-62B2-37EB-8AEA-DAF8F8B1EBBF">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:23:37 UTC</createdTime>
+<generatorID>F4699DE6-BC1B-89D9-E3F7-A6D59C125165</generatorID>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<referedAttribute>BC84CF05-5F9F-4D59-F92B-D14A36699A7F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EAE994E1-328A-E63C-2FEE-CBCBBDBB8C03" name="ARL_Employees_PK">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:23 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>48ABAFDB-18FE-403F-884C-D37812A5AEF6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A48FA1D2-1929-8242-BB22-F846734B8DA5" name="ARL Labs">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:41 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="BC84CF05-5F9F-4D59-F92B-D14A36699A7F">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:41 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>16002BE2-B497-3E79-4625-D958DE5956B8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="51313A34-BBEB-D80A-A9F2-5848125D09DC">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:41 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>C0B124EB-6C14-A93B-6963-EF56769C7A46</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+</Attribute>
+<Attribute name="division id" id="AE4C6EB9-646D-8BCC-15E7-324A015995AF">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:41 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>EEFB2690-6CB0-5330-B670-FE3572663EE9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="document id" id="3090DD74-BA85-A4D6-5A2A-60D2C39349D1">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:41 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<importedID>5B94EA44-74F5-CBC6-581F-2779FFC0F9B6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="id1" id="02CC7A6F-547D-75C7-E14B-B18A384B269E">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:22:21 UTC</createdTime>
+<generatorID>4205E57C-C7CC-E894-C8AD-D5AC93CF8B18</generatorID>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>61EBD48B-DCC4-D53F-B431-D3FA9F3E61B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="id2" id="19147EF5-16C2-33A4-B1D4-3E22270D945D">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:24:02 UTC</createdTime>
+<generatorID>55B45039-E641-1AA5-245B-40E463172F99</generatorID>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<referedAttribute>BA8CA9EC-3BC3-9199-6577-3C6CAFA4B74B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A8586360-BDEC-072F-E8C1-52F8ED3DBAAE" name="ARL_Labs_PK">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-29 15:20:41 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_CONCEPTUAL_MODEL</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC84CF05-5F9F-4D59-F92B-D14A36699A7F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
