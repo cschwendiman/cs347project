@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="3AB2AAC0-B55D-0068-71CA-4DC46629CB6A" name="ARL Divisions" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8C515E26-0BCE-90B2-4509-1B1519AC36A7" name="ARL Documents" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F1977BA3-6C6A-2278-B5BF-FAADDA081459" name="ARL Employees" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9F7057CC-5C9B-98C4-E74B-AFD4D1A013F4" name="ARL Labs" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BB510B9B-DAEF-9D1F-7F2D-A6EE1DCDC89C" name="ARL Notice List Members" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9A0CAAF5-7926-C551-72E2-59A815B3E373" name="ARL Notice Lists" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AFAEFAFB-343B-1605-2CEB-33123AA3C22F" name="ARL Object Types" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AE93B1DA-35D9-36BB-AEEE-91AB2DD637BE" name="Divisions Documents FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7986A125-D0CA-2CFA-7852-D588FCFD6D91" name="Documents Object Types FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="98CB8463-9D5D-1949-0D3E-F1400A8A43B0" name="Employees Documents FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DE05C56C-0126-A271-385C-A58EC070FD91" name="Employees Labs FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DF075933-411B-921D-0D84-A6858740250C" name="Labs Divisions FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8D022939-0792-10A6-C80E-E691489FE1A5" name="Labs Documents FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6877B5B3-F501-5ADF-5906-AA7B83DB1BFF" name="List Members Documents FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4414006C-277A-DEC4-4AAD-703E18C41ACE" name="List Members Employees FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2ED21E4E-46B1-A46A-F382-F64A4DA88EBD" name="List Members Notice Lists FK1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="74FA22ED-BAD5-5928-4AC8-A0C86614E601" name="List Members Notice Lists FK2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7F2A94D9-3C01-A4CD-5557-92266D8D3AD9" name="Notice Lists Documents FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1246CEB1-81B4-FF07-C854-6655AFA36264" name="r13" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

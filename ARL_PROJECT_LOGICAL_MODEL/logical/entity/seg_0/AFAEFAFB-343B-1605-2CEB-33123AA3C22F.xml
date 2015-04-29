@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AFAEFAFB-343B-1605-2CEB-33123AA3C22F" name="ARL Object Types">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 17:15:05 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8D51B367-D71B-DF1E-ACD9-378BF2B99D4F">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 17:15:18 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="EE547693-4196-5FE5-6D8B-98CFD2AB13F4">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 17:15:37 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="523BD0E2-2C6F-EBDB-BAD2-AC9C61295EA6" name="ARL_Object_Types_PK">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 17:15:34 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D51B367-D71B-DF1E-ACD9-378BF2B99D4F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

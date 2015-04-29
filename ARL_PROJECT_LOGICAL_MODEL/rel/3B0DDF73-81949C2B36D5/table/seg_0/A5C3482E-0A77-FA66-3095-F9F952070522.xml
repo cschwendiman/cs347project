@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5C3482E-0A77-FA66-3095-F9F952070522" name="ARL_Labs">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>9F7057CC-5C9B-98C4-E74B-AFD4D1A013F4</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CFB29681-0C63-C6D1-0D6E-062B0CCD0A13">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>16002BE2-B497-3E79-4625-D958DE5956B8</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="0656A23B-B421-59E5-D72F-CBC37BB6B944">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>C0B124EB-6C14-A93B-6963-EF56769C7A46</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="division_id" id="2355A732-3C9C-47E2-75D4-2E0ABBA4603A">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>EEFB2690-6CB0-5330-B670-FE3572663EE9</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>E59D4054-B8C5-5E6F-974D-7641FB492F8F</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="796DE813-1BC2-44FF-3004-833A746A12CE" referredColumn="E59D4054-B8C5-5E6F-974D-7641FB492F8F"/>
+</associations>
+</Column>
+<Column name="document_id" id="044E6BF1-5EF0-6675-0424-E43EE37D90DD">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>5B94EA44-74F5-CBC6-581F-2779FFC0F9B6</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7ECE366B-F6F0-6F6B-885D-D4AB2FA76272</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="177E4EB8-8ED1-C1FD-2379-C48FC5AD85FF" referredColumn="7ECE366B-F6F0-6F6B-885D-D4AB2FA76272"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95EF5B78-8611-3E05-FD61-5FA8EE4788B1" name="ARL_Labs_PK">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>0FFA6BAB-0982-060E-4328-905E92093CAB</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFB29681-0C63-C6D1-0D6E-062B0CCD0A13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6F306EE-BD4C-67E9-10DB-E35F20FC31D1" name="Labs_Divisions_FK">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>DF075933-411B-921D-0D84-A6858740250C</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2355A732-3C9C-47E2-75D4-2E0ABBA4603A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB97E51E-B518-EE9E-E748-D6BC8131ED8E" name="Labs_Documents_FK">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>8D022939-0792-10A6-C80E-E691489FE1A5</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="044E6BF1-5EF0-6675-0424-E43EE37D90DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB8344D8-6FA4-6579-665D-9DF1BF6BFB07" name="ARL_Object_Types">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>AFAEFAFB-343B-1605-2CEB-33123AA3C22F</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D34A34C9-4697-6FD6-66C5-672F7C1E95BF">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>8D51B367-D71B-DF1E-ACD9-378BF2B99D4F</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="7EBF8A25-D15A-35CB-A25B-63268F89D692">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>EE547693-4196-5FE5-6D8B-98CFD2AB13F4</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5909604C-ED1B-87DC-844B-F328EB2A48B9" name="ARL_Object_Types_PK">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>523BD0E2-2C6F-EBDB-BAD2-AC9C61295EA6</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D34A34C9-4697-6FD6-66C5-672F7C1E95BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

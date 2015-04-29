@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB510B9B-DAEF-9D1F-7F2D-A6EE1DCDC89C" name="ARL Notice List Members">
+<createdBy>cassie</createdBy>
+<createdTime>2015-03-30 21:33:18 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="ECA48740-BDF9-751C-BA6D-2E1D2642648D">
+<createdBy>cassie</createdBy>
+<createdTime>2015-03-30 21:33:39 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="date added" id="C4E31E9A-BFBE-AAC1-F2EF-70E0F2882F8B">
+<createdBy>cassie</createdBy>
+<createdTime>2015-03-30 21:34:13 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="document id" id="F47E6F27-C425-5417-04C8-48DE48DC14B5">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 17:18:58 UTC</createdTime>
+<generatorID>6877B5B3-F501-5ADF-5906-AA7B83DB1BFF</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0BCCC238-B29D-25D3-E09E-A1C31B941E5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="notice list child id" id="02613E37-EFFE-6AA2-3EBF-6BDF882E9AED">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 17:35:21 UTC</createdTime>
+<generatorID>74FA22ED-BAD5-5928-4AC8-A0C86614E601</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>96E04705-379D-A761-8425-5CA900712CAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="employee id" id="C533C10B-197C-ABCC-5FF5-9A2B1806CCE0">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 17:37:15 UTC</createdTime>
+<generatorID>4414006C-277A-DEC4-4AAD-703E18C41ACE</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6666EAF4-E3EB-C5C4-56D0-3983BE576AA9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="notice list parent id" id="E9FD1DF4-6102-E5A2-72C4-BA850AB03348">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 17:45:39 UTC</createdTime>
+<generatorID>2ED21E4E-46B1-A46A-F382-F64A4DA88EBD</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="true"/>
+</engineerTo>
+<referedAttribute>96E04705-379D-A761-8425-5CA900712CAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5276331E-B4FD-83B1-33F2-08ECECB9C4D1" name="ARL_Notice_List_Members_PK">
+<createdBy>cassie</createdBy>
+<createdTime>2015-03-30 21:33:52 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECA48740-BDF9-751C-BA6D-2E1D2642648D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="95536FA0-C17E-DAE7-7061-6749B3892E6D" name="ARL_Notice_List_Members__UN">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 17:43:16 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="false"/>
+</engineerTo>
+<newElementsIDs>74FA22ED-BAD5-5928-4AC8-A0C86614E601,4414006C-277A-DEC4-4AAD-703E18C41ACE,2ED21E4E-46B1-A46A-F382-F64A4DA88EBD</newElementsIDs>
+<usedAttributes>
+<attributeRef>02613E37-EFFE-6AA2-3EBF-6BDF882E9AED</attributeRef>
+<attributeRef>C533C10B-197C-ABCC-5FF5-9A2B1806CCE0</attributeRef>
+<attributeRef>E9FD1DF4-6102-E5A2-72C4-BA850AB03348</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

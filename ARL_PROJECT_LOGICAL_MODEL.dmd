@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ARL_PROJECT_LOGICAL_MODEL" id="6C6592C0-6A74-35D2-B07B-3E3DF0F07DA8" version="3.5">
+<createdBy>cassie</createdBy>
+<createdTime>2015-03-30 21:19:12 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6C6592C0-6A74-35D2-B07B-3E3DF0F07DA8</designId>
+</OSDM_Design>

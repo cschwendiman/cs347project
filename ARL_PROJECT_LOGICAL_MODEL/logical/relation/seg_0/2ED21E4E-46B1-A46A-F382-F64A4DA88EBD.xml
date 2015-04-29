@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="List Members Notice Lists FK1" directorySegmentName="seg_0" id="2ED21E4E-46B1-A46A-F382-F64A4DA88EBD">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 17:45:39 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="true"/>
+</engineerTo>
+<sourcePk>236DFAE4-2AB2-0CBC-6A8E-CFBCA25223B0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9A0CAAF5-7926-C551-72E2-59A815B3E373</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB510B9B-DAEF-9D1F-7F2D-A6EE1DCDC89C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

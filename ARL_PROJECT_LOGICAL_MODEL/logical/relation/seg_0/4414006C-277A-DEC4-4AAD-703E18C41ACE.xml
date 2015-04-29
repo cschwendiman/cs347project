@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="List Members Employees FK" directorySegmentName="seg_0" id="4414006C-277A-DEC4-4AAD-703E18C41ACE">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 17:37:15 UTC</createdTime>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<engineerTo>
+<item key="3B0DDF73-D7C0-24F5-ED81-81949C2B36D5" value="true"/>
+</engineerTo>
+<sourcePk>B313FC6F-C0EC-8004-563B-15A9E9993668</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1977BA3-6C6A-2278-B5BF-FAADDA081459</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB510B9B-DAEF-9D1F-7F2D-A6EE1DCDC89C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

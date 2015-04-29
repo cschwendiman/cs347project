@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D061E2D9-C105-7523-C698-87E43C7B4484" name="ARL_Notice_List_Members">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>BB510B9B-DAEF-9D1F-7F2D-A6EE1DCDC89C</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="06AF5436-5ED7-6ECE-2872-2B47BA48A54D">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>ECA48740-BDF9-751C-BA6D-2E1D2642648D</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_added" id="1F794A07-12DC-8911-C960-20DF4B6015B7">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>C4E31E9A-BFBE-AAC1-F2EF-70E0F2882F8B</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARL_Documents_id" id="9BE5078E-EAA1-5080-D007-4DC60A3FD7D2">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>F47E6F27-C425-5417-04C8-48DE48DC14B5</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7ECE366B-F6F0-6F6B-885D-D4AB2FA76272</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D531C3A-8D2F-A24B-BB4F-FA5D68E68612" referredColumn="7ECE366B-F6F0-6F6B-885D-D4AB2FA76272"/>
+</associations>
+</Column>
+<Column name="notice_list_child_id" id="10BE013B-DF77-4ADA-0663-F99174B6F72C">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>02613E37-EFFE-6AA2-3EBF-6BDF882E9AED</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>BB43E855-4BFC-6FF5-823C-B0D4E57BDA33</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4661BA49-7882-6FDB-5DA4-5A7CC5A03E20" referredColumn="BB43E855-4BFC-6FF5-823C-B0D4E57BDA33"/>
+</associations>
+</Column>
+<Column name="employee_id" id="396CB210-3C15-874D-F2B1-41C717FC5502">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>C533C10B-197C-ABCC-5FF5-9A2B1806CCE0</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C3A189FE-8033-0890-EF5F-E0DEE1DC9FAA</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1958E1C0-FD9B-AA74-864E-AD04149E1097" referredColumn="C3A189FE-8033-0890-EF5F-E0DEE1DC9FAA"/>
+</associations>
+</Column>
+<Column name="notice_list_parent_id" id="C5250506-9B96-158D-B9C2-DC1D9A06812F">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>E9FD1DF4-6102-E5A2-72C4-BA850AB03348</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>BB43E855-4BFC-6FF5-823C-B0D4E57BDA33</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F899F9A-7D40-9B6A-F4CA-B55133273612" referredColumn="BB43E855-4BFC-6FF5-823C-B0D4E57BDA33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48388978-329E-6497-221D-104F162B98F9" name="ARL_Notice_List_Members_PK">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>5276331E-B4FD-83B1-33F2-08ECECB9C4D1</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06AF5436-5ED7-6ECE-2872-2B47BA48A54D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00A70829-3C4E-6049-A7B7-4E997CD8CD9F" name="ARL_Notice_List_Members__UN">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>95536FA0-C17E-DAE7-7061-6749B3892E6D</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10BE013B-DF77-4ADA-0663-F99174B6F72C"/>
+<colUsage columnID="396CB210-3C15-874D-F2B1-41C717FC5502"/>
+<colUsage columnID="C5250506-9B96-158D-B9C2-DC1D9A06812F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A224C07D-D200-FF65-38A7-0CD6E187D7E5" name="List_Members_Lists_FK1">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>2ED21E4E-46B1-A46A-F382-F64A4DA88EBD</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5250506-9B96-158D-B9C2-DC1D9A06812F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="361818D1-ADE1-5BE8-BE3E-511AED928705" name="List_Members_Lists_FK2">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>74FA22ED-BAD5-5928-4AC8-A0C86614E601</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10BE013B-DF77-4ADA-0663-F99174B6F72C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86DE65B0-DD51-B7B4-BF77-8CDF07458AFC" name="List_Members_Employees_FK">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>4414006C-277A-DEC4-4AAD-703E18C41ACE</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="396CB210-3C15-874D-F2B1-41C717FC5502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88580218-4062-A23F-F63C-05B7F3171C70" name="List_Members_Documents_FK">
+<createdBy>cassie</createdBy>
+<createdTime>2015-04-22 18:00:19 UTC</createdTime>
+<generatorID>6877B5B3-F501-5ADF-5906-AA7B83DB1BFF</generatorID>
+<ownerDesignName>ARL_PROJECT_LOGICAL_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BE5078E-EAA1-5080-D007-4DC60A3FD7D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
